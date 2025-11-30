@@ -1,0 +1,586 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[pavučinka]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>pavučinka</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 25 Nov 2025 18:45:58 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 25 Nov 2025 18:45:57 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[0. Úvod]]></title><description><![CDATA[🎯 Cíle bloku
+Seznámíme se
+Sladíme se aneb co přesně už ovládáte a kde se chcete zlepšit Naučíte se klíčové zkratky a triky, které budeme používat ve všech dalších blocích
+<a data-href="1. Tabulky do hloubky" href="1.-tabulky-do-hloubky.html" class="internal-link" target="_self" rel="noopener nofollow">1. Tabulky do hloubky</a> Cílem je rychlý průzkum naší úrovně - stačí rychle prolétnout.
+Odpovědi jsou anonymní a pomohou mi přizpůsobit tempo i obsah.
+Mini dotazníkTip
+Není cílem naučit základy, ale sjednotit je, aby byla pokročilá část workshopu plynulá. klik → slovo
+dvojklik → věta / úsek
+trojklik → celý odstavec
+Ctrl+A → označit vše
+Shift + šipky → jemné označování
+Ctrl+Shift+šipky → označení po slovech Ctrl+B / I / U — tučné / kurzíva / podtržení
+Používejte styly, ne ruční formátování (později se bude hodit ;)
+Vyhněte se kombinaci více typů zvýraznění zároveň (např. tučné + kurzíva + barva) Řádkování
+Zarovnání
+Mezery před / za odstavcem
+Co znamená Enter vs. Shift+Enter
+Warning
+Nikdy nezarovnávejte obsah mezerníky ani opakovaným Enterem. Rychle se to vymstí.
+V kurzu kriticky důležité — zapněte prosím!
+¶ konec odstavce
+↵ měkký konec řádku (Shift+Enter)
+· mezera
+° pevná mezera Ctrl + C / X / V — kopírovat / vyjmout / vložit
+Ctrl + Z / Y — zpět / znovu
+Ctrl + Shift + N — styl „Normální“
+Ctrl + Shift + C / V — kopírovat / vložit formát Alt + Shift + šipka nahoru/dolů — přesun odstavce
+Alt + Ctrl + 1 / 2 / 3 — nadpis úrovně 1 / 2 / 3
+Ctrl + Enter — konec stránky Ctrl + Shift + Mezerník — pevná mezera
+Shift + Enter — měkký konec řádku
+V následujícím dokumentu najděte, co je špatně:
+10× Enter mezi odstavci
+Odsazení pomocí mezer
+Náhodné typy zvýraznění
+Tabulka vytvořená tabulátory
+Obrázky vložené „v řádku“
+Chybějící styl nadpisu
+Quote
+Nebojte — stejný dokument po našem kurze opravíte za 30 sekund.
+Další lekce]]></description><link>0.-úvod.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Word pro středně pokročilé/0. Úvod.md</guid><pubDate>Tue, 25 Nov 2025 18:45:33 GMT</pubDate></item><item><title><![CDATA[4.12. Word pro středně pokročilé]]></title><description><![CDATA[pátek 8:00 - 16:30
+práce s tabulkami
+zamykání formátu
+ochrana dokumentu (heslo, omezení zasahování ostatních lidí)
+případně nějaké zkratky, jestli existují a mohly by ulehčit práci
+Super by mohlo být i téma kombinace Word + Excel (vkládání propojených tabulek, atd.)
+na začátku kolečko a dají svoje jméno do kloboučku
+vytvoří dokumenty, rozlosují si dvojičku a revidují a komentují
+one skill activities “Create a well-formatted one-page memo.”
+“Insert a table and apply a professional style.”
+“Track changes on a document sent by a coworker.”
+“Prepare a document for printing with headers/footers.” before and after Create: A messy document (inconsistent fonts, bad spacing, no styles)
+A clean “answer key” version Exercises: Clean up formatting
+Apply styles
+Organise with headings
+Add chage numbers
+Insert images/tables properly mini projects (Give them a scenario and a goal—adults love real use cases.) Build a company report template
+Format a procedure document
+Create a newsletter using basic layout tools
+Prepare a client-ready PDF from Word checklists -“Document cleanup checklist”
+“Formatting checklist”
+“Before you send a file to your boss”
+“How to fix broken numbering in Word” cheatsheets Keyboard shortcuts
+Working with styles
+Table formatting cheatsheet
+Image layout cheatsheet začátečníci Formát písma a odstavce Kopírování formátu
+Označování textu
+Odrážky a číslování Typografická pravidla Záhlaví a zápatí Obrázky Tabulátory Tabulky Psaní speciálních znaků Netisknutelné znaky Tisk dokumentů Kontrola pravopisu Automatické opravy pokročilí
+Styly (úprava a tvorba stylů)
+Osnova, číslování nadpisů, automatický obsah
+Motivy, stavební bloky
+Konce řádků, odstavců a stránek, pevná mezera
+Dělení dokumentu na oddíly
+Vícesloupcová sazba
+Odlišné záhlaví a zápatí v různých částech dokumentu
+Titulky tabulek, křížové odkazy
+Hromadná korespondence
+Víceúrovňové odrážky a číslování
+Revize dokumentu (spolupráce více uživatelů)
+Formuláře, zámek
+<a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.focuspeople.cz/kurzy/pc-kurzy/" target="_self">https://www.focuspeople.cz/kurzy/pc-kurzy/</a>Pracujete s Wordem jako samouci a máte pocit, že spoustu věcí děláte zbytečně složitě? Anebo s Wordem teprve začínáte? Projdeme si nejdůležitější nástroje, které Word nabízí. Od základní úpravy textu se dostaneme i k tabulkám, odrážkám, číslování a práci s obrázky. Absolventi kurzu MS Word základní kurz budou umět upravovat texty, měnit velikost a barvu písma, vytvářet odstavce, používat odrážky, pracovat s dlouhými dokumenty. Osvojí si základy práce s textovým editorem Microsoft Word. Naučí se vytvářet, formátovat a organizovat dokumenty, připravovat je pro tisk, kontrolovat pravopis, číslovat stránky. Seznámí se se základními principy zápisu textu.
+Formát písma a odstavce
+Označování textu
+Tabulátory
+Tabulky
+Záhlaví a zápatí
+Odrážky a číslování
+Obrázky
+Psaní speciálních znaků
+Netisknutelné znaky
+Kopírování formátu
+Tisk dokumentů
+Kontrola pravopisu
+Automatické opravy
+Typografická pravidla
+Kurz MS Word pokročilý je určen pro uživatele, kteří zvládli základy práce v Microsoft Wordu. Účastníci kurzu se naučí základům typografie a budou umět efektivněji využívat možnosti programu. Zaměříme se na nástroje Wordu potřebné především při práci s rozsáhlými dokumenty, jako jsou styly či oddíly. Dále se podíváme na formulářové prvky, hromadnou korespondenci, víceúrovňové odrážky a číslování a na nástroje pro společnou práci více uživatelů na jednom dokumentu. Osvojí si práci se styly, s jejichž pomocí budou mít možnost dokonale formátovat a kontrolovat obsah svého dokumentu a seznámí se s prací s dlouhými dokumenty, vytvářením šablon a s možností využívání tabulek ve Wordu.
+Styly (úprava a tvorba stylů)
+Osnova, číslování nadpisů, automatický obsah
+Motivy, stavební bloky
+Konce řádků, odstavců a stránek, pevná mezera
+Dělení dokumentu na oddíly
+Vícesloupcová sazba
+Odlišné záhlaví a zápatí v různých částech dokumentu
+Titulky tabulek, křížové odkazy
+Hromadná korespondence
+Víceúrovňové odrážky a číslování
+Revize dokumentu (spolupráce více uživatelů)
+Formuláře, zámek
+Délka: 1 den (8 hodin)
+Cíl: Naučit se pracovat s dokumentem efektivně, přehledně a bezpečně – s důrazem na strukturu, formátování, spolupráci a propojení s dalšími aplikacemi.
+Krátké zopakování základů (rychlé formátování, styly, přehledné rozhraní)
+Tipy a klávesové zkratky, které opravdu šetří čas
+Nastavení prostředí Wordu pro efektivní práci (panel Rychlý přístup, přizpůsobení pásu karet) Tvorba a úprava stylů – jak si udržet jednotný vzhled dokumentu
+Použití stylů pro nadpisy, odstavce, seznamy a titulky
+Vytvoření vlastní sady stylů pro firemní dokumenty
+Automatické číslování nadpisů
+Vytvoření automatického obsahu, jeho aktualizace a formátování Vytváření víceúrovňového číslování
+Nastavení hierarchie nadpisů a odrážek
+Přehledné strukturování dlouhých textů Vkládání, úprava a formátování tabulek ve Wordu
+Styl tabulky, zarovnání, slučování buněk, práce s okraji
+Vkládání propojených tabulek z Excelu (živé propojení dat)
+Aktualizace propojených dat
+Možnosti importu a exportu tabulek mezi Wordem a Excelem Konce stránek, oddíly a dělení dokumentu
+Odlišné záhlaví a zápatí v různých částech dokumentu
+Vícesloupcová sazba
+Pevné mezery, nedělitelné mezery a zalomení řádků
+Práce s motivy a stavebními bloky Automatické číslování tabulek, obrázků a grafů
+Vytváření křížových odkazů a jejich aktualizace
+Seznam tabulek a obrázků
+Práce s hypertextovými odkazy Revize dokumentu – sledování změn, komentáře, přijetí a odmítnutí úprav
+Zamykání formátu a obsahu
+Ochrana dokumentu heslem
+Nastavení oprávnění pro různé uživatele
+Sdílení dokumentů a spolupráce v reálném čase Tvorba formulářů ve Wordu (textová pole, zaškrtávací políčka, rozevírací nabídky)
+Uzamčení formuláře proti změnám
+Hromadná korespondence (dopisy, obálky, štítky)
+Propojení Wordu s Excelovou databází kontaktů Nejčastější chyby při práci s dokumenty a jak se jim vyhnout Tipy na zrychlení práce (klávesové zkratky, stavební bloky, výběr formátů)
+Diskuse, otázky a sdílení dobré praxe Jak připravit firemní šablonu dokumentu
+Přizpůsobení stylů pro firemní identitu
+Export do PDF s ochranou a navigací Umět vytvořit profesionálně strukturovaný dokument, který se formátuje sám.
+Vědět, jak chránit a sdílet dokumenty bezpečně.
+Umět efektivně spolupracovat s kolegy a propojit Word s Excelem.
+Ovládat pokročilé funkce, které ušetří čas a zvýší kvalitu výstupů.
+]]></description><link>4.12.-word-pro-středně-pokročilé.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Word pro středně pokročilé/4.12. Word pro středně pokročilé.md</guid><pubDate>Tue, 25 Nov 2025 16:53:52 GMT</pubDate></item><item><title><![CDATA[Word]]></title><description><![CDATA[MS Office provázaný s Office/Microsoft 365
+takže to není to samé?
+a co could?
+jaký to má všechno sakra vztah?
+]]></description><link>word.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Word pro středně pokročilé/Word.md</guid><pubDate>Sat, 22 Nov 2025 19:45:20 GMT</pubDate></item><item><title><![CDATA[1. Tabulky do hloubky]]></title><description><![CDATA[
+Vložení základní tabulky Vlož → Tabulka → vyber počet řádků a sloupců
+Alternativa: nakreslit tabulku ručně Rychlé formátování (Styly tabulky) Vyber tabulku → Nástroje tabulky → Styly tabulek
+Použití přednastavených stylů: barevné pásy, ohraničení, stínování Základní úpravy velikosti sloupců Přetažením okrajů sloupců
+Dialog „Vlastnosti tabulky“ → Šířka sloupců přesně
+Automatické přizpůsobení obsahu (AutoFit) Tip
+Toto je rychlý průlet, cílem je osvěžit základní možnosti, které budete dále rozvíjet. Vyber buňky → Pravé tlačítko → Sloučit buňky
+Pro rozdělení: Pravé tlačítko → Rozdělit buňky
+Užitečné pro nadpisy sekcí nebo seskupení dat Vodorovné zarovnání: vlevo, střed, vpravo
+Svislé zarovnání: nahoře, uprostřed, dole
+Odsazení textu uvnitř buňky: Pravé tlačítko → Vlastnosti buňky → Odsazení Nástroje → Rozložení → Vzorce
+Základní operace: SUM, AVERAGE, MAX, MIN
+Pozor: vzorce aktualizujte ručně (F9) Ohraničení a stínování
+Styly tabulek → vlastní styly
+Barvy, pásy, tučné řádky hlavičky Nástroje → Rozložení → Řazení
+Řazení podle sloupců: vzestupně / sestupně
+Filtry: Podmínky pro zobrazení vybraných řádků Ochrana dokumentu → Omezení úprav → Povolit vyplňování pouze v tabulkách
+Zamykání stylů tabulky pro šablony Nepoužívejte tabulátory místo tabulky
+Označujte celé řádky nebo sloupce pro rychlé formátování
+Používejte přednastavené styly, ne manuální barvy a ohraničení
+Při rozsáhlých tabulkách používejte opakující se hlavičky (Nástroje tabulky → Vlastnosti → Opakovat řádky hlavičky)
+Cvičení
+Úkol 1 – Vytvoření základní tabulky
+Vytvořte tabulku se 4 sloupci a 5 řádky.
+Sloupce pojmenujte: Název, Popis, Cena, Množství.
+Exercise
+Úkol 2 – Formátování a sloučení buněk Sloučte horní řádek a vytvořte nadpis tabulky Zarovnejte text na střed Použijte styl tabulky se stínováním Exercise
+Úkol 3 – Výpočty Do posledního řádku vložte SUM pro sloupec „Cena“ a „Množství“ Exercise
+Úkol 4 – Řazení a filtrování Seřaďte tabulku podle „Cena“ sestupně Filtrovat řádky s množstvím větším než 10 Exercise
+Úkol 5 – Ochrana tabulky Zamkněte tabulku tak, aby bylo možné měnit pouze hodnoty v buňkách „Cena“ a „Množství“ Tabulky jsou mocným nástrojem, nebojte se experimentovat
+Styly, zarovnání, sloučení buněk a ochrana tabulek zvyšují efektivitu
+]]></description><link>1.-tabulky-do-hloubky.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Word pro středně pokročilé/1. Tabulky do hloubky.md</guid><pubDate>Tue, 25 Nov 2025 18:32:51 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[Vítejte na školení Microsoft Word pro středně pokročilé!
+📂 Levý panel: přepínejte mezi dokumenty, které dnes určují tempo kurzu
+🔍 Vyhledávání: v dokumentech snadno najdete konkrétní informace
+📑 Pravý panel: zobrazte si osnovu dokumentu a orientujte se ve struktuře
+Info
+Dnešek je o tom, abyste si odnesli co nejvíce praktických znalostí. Nebojte se kdykoliv ptát, ověřovat si postupy nebo otevřít nové téma — pro vše zde máme prostor.
+]]></description><link>index.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Word pro středně pokročilé/index.md</guid><pubDate>Tue, 25 Nov 2025 18:02:14 GMT</pubDate></item><item><title><![CDATA[index]]></title><link>index.html</link><guid isPermaLink="false">MUNI ped/ITvšem/index.md</guid><pubDate>Tue, 25 Nov 2025 14:17:07 GMT</pubDate></item><item><title><![CDATA[4.12. Word pro středně pokročilé]]></title><description><![CDATA[pátek 8:00 - 16:30
+práce s tabulkami
+zamykání formátu
+ochrana dokumentu (heslo, omezení zasahování ostatních lidí)
+případně nějaké zkratky, jestli existují a mohly by ulehčit práci
+Super by mohlo být i téma kombinace Word + Excel (vkládání propojených tabulek, atd.) one skill activities “Create a well-formatted one-page memo.”
+“Insert a table and apply a professional style.”
+“Track changes on a document sent by a coworker.”
+“Prepare a document for printing with headers/footers.” before and after Create: A messy document (inconsistent fonts, bad spacing, no styles)
+A clean “answer key” version Exercises: Clean up formatting
+Apply styles
+Organise with headings
+Add chage numbers
+Insert images/tables properly mini projects (Give them a scenario and a goal—adults love real use cases.) Build a company report template
+Format a procedure document
+Create a newsletter using basic layout tools
+Prepare a client-ready PDF from Word checklists -“Document cleanup checklist”
+“Formatting checklist”
+“Before you send a file to your boss”
+“How to fix broken numbering in Word” cheatsheets Keyboard shortcuts
+Working with styles
+Table formatting cheatsheet
+Image layout cheatsheet <a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.focuspeople.cz/kurzy/pc-kurzy/" target="_self">https://www.focuspeople.cz/kurzy/pc-kurzy/</a>Pracujete s Wordem jako samouci a máte pocit, že spoustu věcí děláte zbytečně složitě? Anebo s Wordem teprve začínáte? Projdeme si nejdůležitější nástroje, které Word nabízí. Od základní úpravy textu se dostaneme i k tabulkám, odrážkám, číslování a práci s obrázky. Absolventi kurzu MS Word základní kurz budou umět upravovat texty, měnit velikost a barvu písma, vytvářet odstavce, používat odrážky, pracovat s dlouhými dokumenty. Osvojí si základy práce s textovým editorem Microsoft Word. Naučí se vytvářet, formátovat a organizovat dokumenty, připravovat je pro tisk, kontrolovat pravopis, číslovat stránky. Seznámí se se základními principy zápisu textu.
+Formát písma a odstavce
+Označování textu
+Tabulátory
+Tabulky
+Záhlaví a zápatí
+Odrážky a číslování
+Obrázky
+Psaní speciálních znaků
+Netisknutelné znaky
+Kopírování formátu
+Tisk dokumentů
+Kontrola pravopisu
+Automatické opravy
+Typografická pravidla
+Kurz MS Word pokročilý je určen pro uživatele, kteří zvládli základy práce v Microsoft Wordu. Účastníci kurzu se naučí základům typografie a budou umět efektivněji využívat možnosti programu. Zaměříme se na nástroje Wordu potřebné především při práci s rozsáhlými dokumenty, jako jsou styly či oddíly. Dále se podíváme na formulářové prvky, hromadnou korespondenci, víceúrovňové odrážky a číslování a na nástroje pro společnou práci více uživatelů na jednom dokumentu. Osvojí si práci se styly, s jejichž pomocí budou mít možnost dokonale formátovat a kontrolovat obsah svého dokumentu a seznámí se s prací s dlouhými dokumenty, vytvářením šablon a s možností využívání tabulek ve Wordu.
+Styly (úprava a tvorba stylů)
+Osnova, číslování nadpisů, automatický obsah
+Motivy, stavební bloky
+Konce řádků, odstavců a stránek, pevná mezera
+Dělení dokumentu na oddíly
+Vícesloupcová sazba
+Odlišné záhlaví a zápatí v různých částech dokumentu
+Titulky tabulek, křížové odkazy
+Hromadná korespondence
+Víceúrovňové odrážky a číslování
+Revize dokumentu (spolupráce více uživatelů)
+Formuláře, zámek
+Délka: 1 den (8 hodin)
+Cíl: Naučit se pracovat s dokumentem efektivně, přehledně a bezpečně – s důrazem na strukturu, formátování, spolupráci a propojení s dalšími aplikacemi.
+Krátké zopakování základů (rychlé formátování, styly, přehledné rozhraní)
+Tipy a klávesové zkratky, které opravdu šetří čas
+Nastavení prostředí Wordu pro efektivní práci (panel Rychlý přístup, přizpůsobení pásu karet) Tvorba a úprava stylů – jak si udržet jednotný vzhled dokumentu
+Použití stylů pro nadpisy, odstavce, seznamy a titulky
+Vytvoření vlastní sady stylů pro firemní dokumenty
+Automatické číslování nadpisů
+Vytvoření automatického obsahu, jeho aktualizace a formátování Vytváření víceúrovňového číslování
+Nastavení hierarchie nadpisů a odrážek
+Přehledné strukturování dlouhých textů Vkládání, úprava a formátování tabulek ve Wordu
+Styl tabulky, zarovnání, slučování buněk, práce s okraji
+Vkládání propojených tabulek z Excelu (živé propojení dat)
+Aktualizace propojených dat
+Možnosti importu a exportu tabulek mezi Wordem a Excelem Konce stránek, oddíly a dělení dokumentu
+Odlišné záhlaví a zápatí v různých částech dokumentu
+Vícesloupcová sazba
+Pevné mezery, nedělitelné mezery a zalomení řádků
+Práce s motivy a stavebními bloky Automatické číslování tabulek, obrázků a grafů
+Vytváření křížových odkazů a jejich aktualizace
+Seznam tabulek a obrázků
+Práce s hypertextovými odkazy Revize dokumentu – sledování změn, komentáře, přijetí a odmítnutí úprav
+Zamykání formátu a obsahu
+Ochrana dokumentu heslem
+Nastavení oprávnění pro různé uživatele
+Sdílení dokumentů a spolupráce v reálném čase Tvorba formulářů ve Wordu (textová pole, zaškrtávací políčka, rozevírací nabídky)
+Uzamčení formuláře proti změnám
+Hromadná korespondence (dopisy, obálky, štítky)
+Propojení Wordu s Excelovou databází kontaktů Nejčastější chyby při práci s dokumenty a jak se jim vyhnout Tipy na zrychlení práce (klávesové zkratky, stavební bloky, výběr formátů)
+Diskuse, otázky a sdílení dobré praxe Jak připravit firemní šablonu dokumentu
+Přizpůsobení stylů pro firemní identitu
+Export do PDF s ochranou a navigací Umět vytvořit profesionálně strukturovaný dokument, který se formátuje sám.
+Vědět, jak chránit a sdílet dokumenty bezpečně.
+Umět efektivně spolupracovat s kolegy a propojit Word s Excelem.
+Ovládat pokročilé funkce, které ušetří čas a zvýší kvalitu výstupů.
+]]></description><link>4.12.-word-pro-středně-pokročilé.html</link><guid isPermaLink="false">MUNI ped/ITvšem/4.12. Word pro středně pokročilé.md</guid><pubDate>Tue, 25 Nov 2025 09:53:15 GMT</pubDate></item><item><title><![CDATA[Word]]></title><description><![CDATA[MS Office provázaný s Office/Microsoft 365
+takže to není to samé?
+a co could?
+jaký to má všechno sakra vztah?
+]]></description><link>word.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Word.md</guid><pubDate>Sat, 22 Nov 2025 19:45:20 GMT</pubDate></item><item><title><![CDATA[dvoudenní AI]]></title><description><![CDATA[
+Situace, kdy je AI užitečná, a kdy není + Rozhodovací matice
+Praktická zkušenost s AI a dělání mnoha chyb 🙂
+Svatá trojice při psaní promptu
+Specifika ChatGPT, srovnání s jinými nástroji
+Pokročilá struktura promptů
+Různé pokročilé techniky a frameworky pro promptování
+Průnik AI a její začlenění do vašich pracovních postupů
+Vlastní projekt(y)
+Průniky AI a další pokročilé techniky promptování
+Microsoft Copilot a MS agenti
+Generování obrázků
+Generování audia, hlasů a hudby
+Diskuze o možnostech automatizace
+Další vlastní projekt(y) nechat si navrhnout modelove situace pro firmu
+hrát si s tím co je to strojové učení ukázky chyb ve videích pracovat více s jejich očekáváními - nechat je vypsat mi zakázku, nebo sesbírat nápady do multimetru
+]]></description><link>dvoudenní-ai.html</link><guid isPermaLink="false">MUNI ped/ITvšem/dvoudenní AI.md</guid><pubDate>Sat, 22 Nov 2025 11:48:00 GMT</pubDate></item><item><title><![CDATA[21.11. Seznámení s AI]]></title><description><![CDATA[Pátek 8:00 - 16:30
+Nemáme zájem o Copilota. Max. okrajově, co se dá dělat ve verzi zdarma, která má být obsažená v M365. Chceme obecné informace, více info o ChatGPT (co lze dělat zdarma), okrajově Gemini. Máme 3 placené licence ChatGPT. Nikdo z účastníků kurzu placenou verzi nemá. Claude u nás nikdo moc nepoužívá.
+Úvod do umělé inteligence
+Základní pojmy a principy AI
+AI v pracovním prostředí
+Praktická část: Práce s AI nástroji
+Rizika, bezpečnost a odpovědné využívání AI
+Budoucnost práce s AI
+Diskuze, zpětná vazba a závěr vymyslet aktivity diskuze, myšlenkové mapy, skupinky a mini projektíky, sdílení zkušeností
+můžu na tabuli zapisovat myšlenky, nechat je si popovídat školení vést formou Oživení -&gt; Malá frontálka -&gt; Cvičení (skupinové, týmové, individuální) -&gt; Udělají chyby -&gt; Vysvětlení chyb -&gt; Vyzkoušení znovu -&gt; Další látka rozvrh na bloky 8 - 9:30
+10 - 12
+cca 12:30/13 - 14:30
+15 - 16:30 budu mít 5 bloků<img alt="Pasted image 20251122124434.png" src="pasted-image-20251122124434.png" target="_self"><br>
+<img alt="Pasted image 20251122124450.png" src="pasted-image-20251122124450.png" target="_self"><br>
+<img alt="Pasted image 20251122124512.png" src="pasted-image-20251122124512.png" target="_self"><br>
+<img alt="Pasted image 20251122124534.png" src="pasted-image-20251122124534.png" target="_self"> pojďme se na 3 minutky každý sám zamyslet a pak posdílet najít si dovolenou přízpěvky na facebook jak by to využili v práci copilot v office voice mode promo video mentimeter test webik Proč to ještě před 10 lety vypadalo jako slepá větev vědy
+Statistika vs. Machine Learning vs. AI
+Kde všude potkáváme AI -&gt; skupinová diskuze Rozpoznávání obrazu a zvuku (např. Google Lens, diktování)
+Generativní AI - text, obrázky (např. DALL·E, Midjourney), hudba, video
+Prediktivní modely - analýza dat, vzorců
+Rozhodovací systémy - scoring, diagnostika Google Teachable Machine trénink modelu v praxi -&gt; aktivita cca 20 minut Od neuronu a jejich sítí k LLM (Large Language Models)
+Halucinace, pravděpodobnosti
+AI nemyslí, není kreativní, kopíruje Vhodné pro průzkum existujících informací
+Repetitivní a rutinní činnosti
+Brainstormingový nástroj ChatGPT Kde je a jak vypadá
+Co je jeho cílem
+Kde končí naše rozhovory -&gt; minireflexe Situace, kdy je AI užitečná, a kdy není Sdílení zkušeností -&gt; diskuze
+Příklady využití: Sumarizace textů, překlady, úprava e-mailů
+Organizace času, poznámky, plánování
+Tvorba prezentací, textů, nápadů Pravidla pro psaní promptu + základní frameworky
+Testování přístupů s použitím různých modelů: ChatGPT (různé modely), Gemini, Copilot, Perplexity
+Každá skupina dostane jiné zadání testující možnosti modelů -&gt; skupinová práce + sdílení Jak poznám špatnou odpověď „Všechny modely jsou špatné, ale některé jsou užitečné.“ – George E. P. Box ChatGPT Umí měnit persony
+Limity na velikost vstupu a práce s obrázky ve free verzi
+Sdílení GPTs z premium účtu
+Extra funkce v ChatGPT Premium
+Hlasové ovládání Vyhledávání ve velkých dokumentech (např. PDF.ai)
+Generování zápisků z meetingů
+Generování presentací
+Studium využití AI ke generování shrnutí, kartiček, kvízů, podcastů FUN využití: generování videí, hudby, textů Návrhy interiéru, rozložení světel, vizualizace zahrady
+Jaké brýle by mi slušely, barva vlasů
+-&gt; mini firemní nebo osobním promo projekt, cca 20 minut Dokážeme odlišit obsah vytvořený AI od lidského?
+Etické problémy -&gt; diskuze Kde AI bere data
+Umění a autorství
+Ekologie a energetická náročnost AI Postřehy z EU AI Act – co to znamená pro běžné uživatele i firmy Rychlé shrnutí a zopakování Tipy na další zdroje, filmy, knihy Zpětná vazba Předání certifikátů seznámení něco o mě
+jejich očekávání, potřeby, otázky, zajímavosti aktivita I wonder? vyzkoušet si google teachable machine a pochopit princip ai druhy AI
+o tom jak vzešla ze statistiky
+dotknout se obrovských vektorů transformerů
+doporučit kurz od EU hello ruby, robot jde do školy historie ve zkratce - jak jsme došli ke generativní AI co máme dnes všechny modely jsou špatné, ale některé jsou užitečné
+modely jsou jen tak dobré jak data kterými je nakrmíme - a lidi jsou rasisti, sexisti a prasata -&gt; lidský fine tuning -&gt; černí nacisti
+v chatu, v obrázcích, videích
+kolik má vah, chat, jak dlouho se trénoval, na kolik datech
+teorie destilovanych modelu
+modelu tvořivého a kritického u tvorby obrázků a videí
+halucinace a kde se berou AI v praxi: Šablony promptů, best practices pravidla k dobrému promptování
+emaily za 10 vteřin
+reporty, osobní ohodnocení
+generovat si zápisky z meetingu vyzkoušet a otestovat rozdíly mezi chatGPT různé modely, Gemini, Copilot, Perplexity, scite chat chat umí měnit přístup na učitele, podle nastavení dole v okně
+limity na velikost vstupu, obrázků na free chat
+můžu sdílet persony z premium účtu s ostatními
+extra featury premium chatuGPT mrknout na srovnávací studie
+vyhledávání ve velkém pdf.ai Integrace do stávajících nástrojů (CRM, 365/Workspace) FUN využití generovat videa, hudbu, texty spojit na firemní/osobní promo projekt
+Generovani nabytku, kam dát světla, zabydleni zahrady, jaký brýle by mi slušely, barva vlasů
+ten google kreslící nástroj co hádá co chci kreslit a podle toho dodělává
+studyFI - vyuziti AI ke generovani shrnutí, kartiček, kvízů, podcastů otestovat si schopnost rozlišit ai content podívat se na bizár chiuaua pirátský song - identifikovat podle čeho je to AI - a pak otestovat
+lze účinně odlišit text generovaný AI?
+o tom jak soutěže AI obrázků vyhrávají real life photos pokecat s chatem k učení jazyka ukázat na co je chat krátký - každý si zkusí najít sám spočítej mi písmenka dotknout se transformerů jsem nemocná?
+nechce se mi žít etické problémy AI které společnosti se soudí o práva na materiál a co si o tom myslíme my? kopírování studia ghibli nás asi netrápí, ale co krteček? něco memes AI nemyslí, není kreativní, kopíruje používat na průzkum toho co existuje
+brainstormingový nástroj co moje soukromí, kam se ukládají moje chaty, čte to někdo, učí se na tom? linked in defaultne souhlasíme s používáním příspěvků na trénování AI
+co jiná sociální média, jaká jsou pravidla pro používání AI kontentu pod mým jménem?
+co o tom říká nová směrnice EU = AI act
+jak to řeší jinde po světě - globální pohled opakování shrnutí toho co jsme prošli reflexe světla a stíny tipy na další čtení a filmy online audio book od modrovlasé statističky o big data
+dokumet na netflixu o tom jak modely nerozpoznávají jiné tváře než bělochů
+o anti AI movementu v umění, jak zmást trakovací systémy
+doporučit kurz od EU hello ruby pro děti - robot jde do školy
+hlavně ať zkouší co to jde, faily se naučí Situace, kdy je AI užitečná, a kdy není + Rozhodovací matice
+Praktická zkušenost s AI a dělání mnoha chyb 🙂
+Svatá trojice při psaní promptu
+Specifika ChatGPT, srovnání s jinými nástroji
+Pokročilá struktura promptů
+Různé pokročilé techniky a frameworky pro promptování
+Průnik AI a její začlenění do vašich pracovních postupů
+Vlastní projekt(y)Průniky AI a další pokročilé techniky promptování
+Microsoft Copilot a MS agenti
+Generování obrázků
+Generování audia, hlasů a hudby
+Diskuze o možnostech automatizace
+Další vlastní projekt(y)Vzdělávací kurz - Základy umělé
+inteligence (AI) pro začátečníky
+(nezávislé na konkrétním nástroji jako je Copilot)
+Cíl kurzu:
+ Vysvětlit srozumitelně, co je umělá inteligence, jak funguje a kde se používá.
+ Umožnit účastníkům pochopit možnosti i limity AI v běžném životě i práci.
+ Seznámit je se základními pojmy, principy, riziky i etickými otázkami.
+ Ukázat praktické příklady nástrojů AI, které může využít každý – bez nutnosti
+programování.
+Cílová skupina:
+ Úplní začátečníci bez předchozích znalostí AI
+ Kancelářští pracovníci, učitelé, studenti, manažeři
+ Všichni, kteří chtějí pochopit „co je to AI a co to pro mě znamená“
+Rozsah kurzu: 8 hodinOSNOVA A OBSAH KURZU
+Co je umělá inteligence a jak funguje (1,5 h)
+Cíl: Porozumět základním pojmům a principům AI
+Teoretická část:
+ Co je umělá inteligence (AI) – definice, historie, vývoj
+ Rozdíl mezi:
+o AI vs. automatizace
+o Úzká (narrow) vs. obecná (AGI) AI
+ Jak AI „přemýšlí“: data, modely, algoritmy
+ Co je strojové učení (Machine Learning)
+ Co je neuronová síť a jazykový model
+Praktická část:
+ Příklady AI kolem nás (dnes už běžné):
+o Doporučování videí, personalizované reklamy
+o Automatické překlady, rozpoznávání hlasu, fotky
+o Chatboti a virtuální asistenti
+Základní typy a oblasti použití AI (1,5 h)
+Cíl: Poznat hlavní typy AI a jejich reálné využití
+Typy AI aplikací:
+ Rozpoznávání obrazu a zvuku (např. Google Lens, diktování)
+ Generativní AI:
+o Text (chatboti, generování textu, shrnutí)
+o Obrázky (např. DALL·E, Midjourney)
+o Hudba, video
+ Prediktivní modely – analýza dat, vzorců
+ Rozhodovací systémy – scoring, diagnostika
+Ukázky a demonstrace (v bezpečném prostředí):
+ Vyzkoušení jednoduchého AI nástroje:
+o AI chatbot (ChatGPT, Gemini, Claude)
+o AI generátor obrázků (např. Canva, Bing Image Creator)
+Diskuze:
+ Kde je AI užitečná vs. kde může selhat?
+Možnosti a limity AI v běžném životě a práci (1,5 h)
+Cíl: Naučit se používat AI chytře a bezpečně
+Možnosti:
+ Jak může AI pomoci v běžném životě:
+o Sumarizace textů, překlady, úprava e-mailů
+o Organizace času, poznámky, plánování
+o Tvorba prezentací, textů, nápadů
+Limity a rizika:
+ Halucinace: když si AI „vymýšlí“
+ Chybná data = chybný výstup
+ Nedorozumění: AI neví, co říká – jen predikuje
+ Riziko závislosti a ztráty kritického myšlení
+Zásady pro bezpečné a odpovědné používání: Jak poznat výmysl
+ Kdy AI nevěřit
+ Pravidla pro práci s citlivými daty
+Praktické tipy:
+ Jak se ptát AI: technika správného „promptu“
+ Jak si kontrolovat výstupy
+ Jak AI „vychovávat“ (kontext, styl) Budoucnost a etika AI + praktické cvičení (1,5 h)
+Cíl: Uvědomit si širší dopady AI a vyzkoušet ji sám
+Etické otázky:
+ Co znamená „AI eticky“ – základní principy (spravedlnost, transparentnost,
+zodpovědnost)
+ Kdo nese odpovědnost za výsledek AI?
+ Deepfake, manipulace, fake news
+ AI a zaměstnání – hrozba nebo příležitost?
+Regulace a právo:
+ GDPR vs. AI
+ Základy AI Act (EU zákon o umělé inteligenci)
+Praktické cvičení – volitelně ve skupinách nebo samostatně:
+ Tvorba textu pomocí AI
+ Vyhledání a zhodnocení informací
+ Shrnutí dlouhého článku
+ Analýza rizika v příkladu: co AI udělala špatně? Závěr kurzu (30 min)
+ Shrnutí klíčových poznatků
+ Doporučené nástroje a zdroje (YouTube, weby, kurzy)
+ Otázky &amp; odpovědi
+ (Volitelně) test/ověření znalostí
+ Zpětná vazba od účastníků
+ Předání certifikátu / potvrzení o účasti suno<br>
+<a rel="noopener nofollow" class="external-link is-unresolved" href="https://suno.com/song/1fc9c8e6-e663-4c45-9b22-34cd6ff4a85e" target="_self">https://suno.com/song/1fc9c8e6-e663-4c45-9b22-34cd6ff4a85e</a><br>
+<img alt="Pasted image 20251118220219.png" src="pasted-image-20251118220219.png" target="_self"><br><a rel="noopener nofollow" class="external-link is-unresolved" href="https://viktorie.net/prezentace/" target="_self">https://viktorie.net/prezentace/</a><br><a rel="noopener nofollow" class="external-link is-unresolved" href="https://vkurzu.cz/" target="_self">https://vkurzu.cz/</a><br>
+<a rel="noopener nofollow" class="external-link is-unresolved" href="https://sborovnavkurzu.cz/osnova/" target="_self">https://sborovnavkurzu.cz/osnova/</a>
+Zaplavení internetu AI obrázky
+<br><a rel="noopener nofollow" class="external-link is-unresolved" href="https://noai.duckduckgo.com" target="_self">https://noai.duckduckgo.com</a>
+]]></description><link>21.11.-seznámení-s-ai.html</link><guid isPermaLink="false">MUNI ped/ITvšem/21.11. Seznámení s AI.md</guid><pubDate>Sat, 22 Nov 2025 11:46:22 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Pasted image 20251122124534]]></title><description><![CDATA[<img src="pasted-image-20251122124534.png" target="_self">]]></description><link>pasted-image-20251122124534.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Pasted image 20251122124534.png</guid><pubDate>Sat, 22 Nov 2025 11:45:34 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Pasted image 20251122124512]]></title><description><![CDATA[<img src="pasted-image-20251122124512.png" target="_self">]]></description><link>pasted-image-20251122124512.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Pasted image 20251122124512.png</guid><pubDate>Sat, 22 Nov 2025 11:45:12 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Pasted image 20251122124450]]></title><description><![CDATA[<img src="pasted-image-20251122124450.png" target="_self">]]></description><link>pasted-image-20251122124450.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Pasted image 20251122124450.png</guid><pubDate>Sat, 22 Nov 2025 11:44:50 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Pasted image 20251122124434]]></title><description><![CDATA[<img src="pasted-image-20251122124434.png" target="_self">]]></description><link>pasted-image-20251122124434.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Pasted image 20251122124434.png</guid><pubDate>Sat, 22 Nov 2025 11:44:34 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Předběžná osnova školení - Umělá inteligence v praxi]]></title><description><![CDATA[
+Proč to ještě před 10 lety vypadalo jako slepá větev vědy
+Statistika vs. Machine Learning vs. AI
+Kde všude potkáváme AI -&gt; skupinová diskuze Rozpoznávání obrazu a zvuku (např. Google Lens, diktování)
+Generativní AI - text, obrázky (např. DALL·E, Midjourney), hudba, video
+Prediktivní modely - analýza dat, vzorců
+Rozhodovací systémy - scoring, diagnostika Google Teachable Machine trénink modelu v praxi -&gt; aktivita cca 20 minut Od neuronu a jejich sítí k LLM (Large Language Models)
+Halucinace, pravděpodobnosti
+AI nemyslí, není kreativní, kopíruje Vhodné pro průzkum existujících informací
+Repetitivní a rutinní činnosti
+Brainstormingový nástroj ChatGPT Kde je a jak vypadá
+Co je jeho cílem
+Kde končí naše rozhovory -&gt; minireflexe Situace, kdy je AI užitečná, a kdy není Sdílení zkušeností -&gt; diskuze
+Příklady využití: Sumarizace textů, překlady, úprava e-mailů
+Organizace času, poznámky, plánování
+Tvorba prezentací, textů, nápadů Pravidla pro psaní promptu + základní frameworky
+Testování přístupů s použitím různých modelů: ChatGPT (různé modely), Gemini, Copilot, Perplexity
+Každá skupina dostane jiné zadání testující možnosti modelů -&gt; skupinová práce + sdílení Jak poznám špatnou odpověď „Všechny modely jsou špatné, ale některé jsou užitečné.“ – George E. P. Box ChatGPT Umí měnit persony
+Limity na velikost vstupu a práce s obrázky ve free verzi
+Sdílení GPTs z premium účtu
+Extra funkce v ChatGPT Premium
+Hlasové ovládání Vyhledávání ve velkých dokumentech (např. PDF.ai)
+Generování zápisků z meetingů
+Generování presentací
+Studium využití AI ke generování shrnutí, kartiček, kvízů, podcastů FUN využití: generování videí, hudby, textů Návrhy interiéru, rozložení světel, vizualizace zahrady
+Jaké brýle by mi slušely, barva vlasů
+-&gt; mini firemní nebo osobním promo projekt, cca 20 minut Dokážeme odlišit obsah vytvořený AI od lidského?
+Etické problémy -&gt; diskuze Kde AI bere data
+Umění a autorství
+Ekologie a energetická náročnost AI Postřehy z EU AI Act – co to znamená pro běžné uživatele i firmy Rychlé shrnutí a zopakování
+Tipy na další zdroje, filmy, knihy
+Zpětná vazba
+Předání certifikátů ai od 50 let, historie v kostce
+6 modelu + dixi, placene verze, komunikace jaký nástroj, jaký je rozdíl mezi placenou a neplacenou jak donutit overit informace
+uvazovat
+podat zdroje geminy, chat promptologie = reálný obor dětska role
+pravidal pro tvorbu obrázků
+rozdíly - chat, canva, geminy
+co vám napsala? use cases a at si to vyzkouset
+jak naplno vyuzit v praci
+volny cas - výlet a letenky
+analyza dat perplexity
+eticke kodexi geminy a chatugpt pracuje s fotkou cloveka? sebere nam praci?
+co etika textů
+jak vytvorit prompt na video - nástroje + konkrétní výsledky VO3
+sora2 ai avatar higen modelové situace a příklady použití 20 mluvit 20 práce 20 diskuze jak udělat obchodní email
+autdio to text evropská akademie vzdělávání
+]]></description><link>předběžná-osnova-školení-umělá-inteligence-v-praxi.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Předběžná osnova školení - Umělá inteligence v praxi.md</guid><pubDate>Thu, 20 Nov 2025 21:03:01 GMT</pubDate></item><item><title><![CDATA[prezentace]]></title><description><![CDATA[Co si dneska řekneme:
+O mě O Vás O AI A jakými triky oslnit vaší babičku. FI MUNI - Umělá inteligence a zpracování dat, specializace na bioinformatiku FI MUNI - Učitel informatiky a správce sítě Education university of Hong Kong VUT FEKT - Biomedicínská technika a bioinformatika -&gt; Bc. ![[signal-2025-11-18-212651.jpeg]] --- FI MUNI - Umělá inteligence a zpracování dat, specializace na bioinformatiku FI MUNI - Učitel informatiky a správce sítě Education university of Hong Kong VUT FEKT - Biomedicínská technika a bioinformatika -&gt; Bc.
+<img alt="signal-2025-11-18-212651.jpeg" src="signal-2025-11-18-212651.jpeg" target="_self"> --
+AI nenahrazuje lidi jako celek, ale nahrazuje rutinní části práce Zároveň vytváří nové role a posouvá kompetence směrem ke kreativnějším a strategičtějším úkolům Opakující se činnosti (administrativa, základní analýza dat) Úbytek tradičních pracovních pozic, které nevyžadují kreativitu či kritické myšlení Vznik nových profesí (AI specialisté, prompt kurátoři dat, supervizoři AI) Zvýšení produktivity (rychlejší zpracování dat, automatizace rutinních úkolů, zrychlení administrativních procesů)
+Růst poptávky po kreativitě, emocionální práci, vedení týmů a odborné expertíze Shrnutí: AI není konkurent lidí, ale nahrazuje rutinní části práce – ne lidi, kteří ovládají dovednosti budoucnosti. --GDPR (Obecné nařízení o ochraně osobních údajů) se vztahuje i na AI — obzvlášť tam, kde technologie zpracovává osobní data, která mohou identifikovat člověka. Zákaz plně automatizovaného rozhodování bez lidského dohledu Čl. 22 GDPR: Rozhodnutí, která mají právní či zásadní dopad na člověka, nesmí být zcela automatická. Musí být možnost lidského zásahu. Transparentnost Uživatelé musí být informováni, že jejich data zpracovává AI, a měli by znát účel, rozsah a dobu uchovávání. Možnost lidského přezkumu / námitky Subjekt údajů má právo požádat o přehodnocení automatického rozhodnutí, prezentovat svůj pohled a požádat o vysvětlení. Právo na výmaz („právo být zapomenut“) v některých případech Pokud AI zpracovává osobní údaje v tréninku modelů, může být žádáno o jejich vymazání, pokud to je technicky proveditelné. --AI Act je první komplexní legislativní rámec, který přímo reguluje AI v EU. Jeho cílem je ochránit občany a zároveň podpořit odpovědný rozvoj AI.UE rozděluje AI aplikace do několika kategorií podle rizika, které představují:
+Zakázané systémy („unacceptable risk“)
+– Příklady: manipulativní systémy, sociální scoring, prediktivní policejní systémy. Tyto systémy mohou být v budoucnu zakázány. Vysoce rizikové systémy („high-risk“)
+– Patří sem AI nástroje používané v HR (nábor, hodnocení), zdravotnictví, finančnictví, kritické infrastruktuře. Vyžadují přísné záruky, dokumentaci a lidský dohled. Omezené riziko
+– Např. chatboty musí jasně sdělit, že nejsou lidé, deepfake obsah musí být označen. Minimální riziko
+– Běžné generativní nástroje (např. pro psaní textů, obrázků) – regulace je méně přísná, doporučují se osvědčené postupy.
+--
+Firmy, které používají AI, musí posoudit riziko dané aplikace podle AI Act. Při použití automatizovaných rozhodovacích systémů dodržovat požadavky GDPR, zejména pokud rozhodování ovlivňuje lidi zásadně. Zajištění transparentnosti a možnosti lidského zásahu je klíčové pro soulady s GDPR.
+Back to horizontal levels.Back to horizontal levels.<br><a rel="noopener nofollow" class="external-link is-unresolved" href="https://lukascerny.eu/" target="_self">https://lukascerny.eu/</a>]]></description><link>prezentace.html</link><guid isPermaLink="false">MUNI ped/ITvšem/prezentace.md</guid><pubDate>Wed, 19 Nov 2025 23:37:17 GMT</pubDate><enclosure url="signal-2025-11-18-212651.jpeg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="signal-2025-11-18-212651.jpeg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[signal-2025-11-18-212651]]></title><description><![CDATA[<img src="signal-2025-11-18-212651.jpeg" target="_self">]]></description><link>signal-2025-11-18-212651.html</link><guid isPermaLink="false">MUNI ped/ITvšem/signal-2025-11-18-212651.jpeg</guid><pubDate>Wed, 19 Nov 2025 23:21:39 GMT</pubDate><enclosure url="signal-2025-11-18-212651.jpeg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="signal-2025-11-18-212651.jpeg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[AI obecně]]></title><link>ai-obecně.html</link><guid isPermaLink="false">MUNI ped/ITvšem/AI obecně.md</guid><pubDate>Wed, 19 Nov 2025 09:43:03 GMT</pubDate></item><item><title><![CDATA[Tipy k presentacím]]></title><description><![CDATA[OrgPad <a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.orgpad.com/" target="_self">https://www.orgpad.com/</a>
+ala myšlenková mapa
+možnost spolupráce i presentace
+Obsidian enhanced slides
+jde exportovat mj do html
+zobrazení do sloupců
+Padlet
+ideální pro spolupráci
+zobrazení ve sloupcích
+Miro
+možnost spolupráce
+sdílení výsledků
+Figma
+spolupráce a sdílení
+]]></description><link>tipy-k-presentacím.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Tipy k presentacím.md</guid><pubDate>Wed, 19 Nov 2025 08:58:05 GMT</pubDate></item><item><title><![CDATA[Pasted image 20251118220219]]></title><description><![CDATA[<img src="pasted-image-20251118220219.png" target="_self">]]></description><link>pasted-image-20251118220219.html</link><guid isPermaLink="false">MUNI ped/ITvšem/Pasted image 20251118220219.png</guid><pubDate>Tue, 18 Nov 2025 21:02:19 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[IT všem]]></title><description><![CDATA[By mohla být cool doména Dospěláci dle mých zkušeností rádi na něčem makaj a pak o tom hlavně diskutujou ve skupiněAI
+studyFI - vyuziti AI ke generovani shrnutí, kartiček, kvízů, podcastů
+Generovani nabytku, kam dát světla, zabydleni zahrady,
+Morální zásady
+Zápisky z meetingu
+Spočítejte počet slov písmen
+Učení jazyka - pokecat<a data-href="Deep layers" href="muni-ped/dp/deep-layers.html" class="internal-link" target="_self" rel="noopener nofollow">Deep layers</a>
+Super presentace na Deep Layers
+Mohli by si natrénovat google teachable machine
+A pak rozjet google colab a natrenovat si real life AI na rozeznavani kamenů? 😅
+]]></description><link>it-všem.html</link><guid isPermaLink="false">MUNI ped/ITvšem/IT všem.md</guid><pubDate>Thu, 13 Nov 2025 12:38:49 GMT</pubDate></item><item><title><![CDATA[osobní ocenění]]></title><description><![CDATA[
+K diplomu každý dostane personifikovaný certifikát k jeho osobním kvalitám, nebo když to nestihnu vytisknout, tak aspoň slovně.
+Krátký ceremoniál ve stylu „předávání Oskarů“.
+Každý účastník dostane svůj titul + krátké osobní zdůvodnění (např. „za schopnost přemýšlet jinak a zpochybňovat zaběhlé postupy“). drobné ceny ala čokoládové medaile ala za všetečné otázky, spolupráci, team leadera, budování argumetů, mistr mišlenkové mapy, vrchni experimentátor, objevitel, spolehlivý přitel, expert, aktivizátor, umělec, ocenit barvocit, smysl pro detail, komplexní myšlení, kreativitu, out of the box thinking
+Všetečný badatel – za všetečné otázky, které posouvaly školení dál.
+Teamový motor – za spolupráci a pozitivní energii v týmu.
+Team leader – za přirozené vedení a podporu ostatních.
+Budovatel argumentů – za schopnost vystavět jasnou a přesvědčivou myšlenkovou linii.
+Mistr myšlenkové mapy – za schopnost přehledně strukturovat a vizualizovat složitá témata.
+Vrchní experimentátor – za odvahu zkoušet nové přístupy a technologie.
+Objevitel nových cest – za otevřenost novým možnostem a inspirativní přístup.
+Spolehlivý přítel – za podporu ostatních a klidnou jistotu v týmu.
+Expert dne – za odborné znalosti a ochotu je sdílet.
+Aktivizátor – za schopnost rozhýbat skupinu a zapojit ostatní.
+Umělec dne – za estetické cítění a kreativní přístup.
+Smysl pro detail – za pečlivost a schopnost doladit věci do dokonalosti.
+Komplexní myslitel – za schopnost vnímat věci v souvislostech.
+Kreativec – za nápadité a originální myšlenky.
+Out of the box thinker – za neotřelé myšlení a netradiční pohledy.
+Architekt myšlenek – za systematický a promyšlený přístup.
+Tichá jistota – za spolehlivost a stabilitu, která držela tým pohromadě.
+Most mezi světy – za schopnost propojit různé pohledy a přístupy. AI průkopník – za odvahu vstoupit do neznámého teritoria umělé inteligence.
+Promptový mág – za nejchytřejší nebo nejvtipnější využití promptu.
+Digitální vizionář – za schopnost vidět možnosti, které ostatní teprve tuší.
+Human-in-the-loop – za nejlepší propojení lidského úsudku a práce s AI.
+Etický stratég – za promyšlené pohledy na odpovědné využívání technologií.
+Skeptik s přehledem – za kritické otázky, které obohatily diskusi.
+AI inovátor – za nápad, který by mohl být skutečně využitelný v praxi.
+Detektiv dat – za analytické myšlení a přesnost při interpretaci výsledků.
+Krotitel algoritmů – za schopnost zjednodušit a zkrotit složité pojmy. Architekt dokumentů – za promyšlenou strukturu a přehlednost.
+Mistr stylů – za precizní práci s formátováním a šablonami.
+Formátovací kouzelník – za schopnost proměnit chaos v čistý dokument.
+Tvůrce šablon – za efektivní přístup a využívání pokročilých nástrojů.
+Detektiv revizí – za pečlivost a pozornost k detailům při kontrole textu.
+Wordový guru – za největší pokrok v dovednostech během školení.
+Tabulkový virtuóz – za mistrovství v práci s tabulkami a číslováním.
+Záchranář dokumentů – za schopnost zachránit rozbitý soubor nebo formát.
+Estét textu – za cit pro vizuální stránku dokumentu.
+]]></description><link>osobní-ocenění.html</link><guid isPermaLink="false">MUNI ped/ITvšem/osobní ocenění.md</guid><pubDate>Wed, 12 Nov 2025 08:56:58 GMT</pubDate></item></channel></rss>
